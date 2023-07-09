@@ -1,0 +1,67 @@
+h2 {
+    font-family: Bungee, cursive;
+    color: #0980a1
+}
+
+#log {
+    background-color: #17a2b8;
+    color: white;
+    width: 90%;
+    margin-top: 8%;
+}
+
+#icon {
+    margin-left: 10%;
+}
+
+#log:hover {
+    background-color: #0980a1;
+    color: white;
+}
+
+label {
+    color: gray;
+    font-size: large;
+    margin-left: 5%;
+}
+#login input{
+   margin-left: 5%;
+}
+.logInput {
+    margin: 2%;
+    /* margin-left: 5%; */
+    width: 90%;
+    display: block;
+}
+
+#login {
+    margin-top: 8%;
+    text-align: left;
+}
+
+#login p {
+    font-size: 120%;
+    display: inline-block;
+}
+
+#sig {
+    color: #0980a1;
+}
+
+#sig:hover,
+#sig:focus {
+    color: #609ea8;
+}
+
+#login input:hover,
+#login input:focus {
+    outline: none;
+    box-shadow: #3bbacb 0px 0px 0px 2px;
+}
+
+a {
+    color: #609ea8
+}
+#center{
+    text-align: center;
+}

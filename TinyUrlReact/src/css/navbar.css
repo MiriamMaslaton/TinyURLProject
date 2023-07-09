@@ -1,0 +1,70 @@
+h1 {
+  position: absolute;
+  left: 3%;
+  top: 3%;
+  font-size: 400%;
+}
+
+#nav {
+  z-index: 2;
+  width: 30%;
+  height: 8%;
+  border-radius: 5px;
+  position: absolute;
+  left: 65%;
+  top: 5%;
+  display: flex;
+  padding: 0%; 
+  background-color: #0980a1;
+}
+
+#nav .link {
+  font-size: 150%;
+  padding-bottom: 3%;
+  margin-top: 0%;
+  color: white;
+  text-align: center;
+  flex-grow: 1;
+  border-radius: 5px;
+  padding-top: 4%;
+}
+.link:hover {
+  background-color: #10bde5;
+}
+
+.link:focus {
+  background-color: #002342;
+}
+
+h3 {
+  color: white;
+}
+#modal{
+  z-index: -1;
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  left: 75%;
+  height: 100%;
+  width:25%;
+  background-color: white;
+  text-align: center;
+}
+#ex {
+    position: absolute;
+    border-radius: 5px;
+    top:6.5%;
+    right: 5%;
+    width:10%;
+    height:5%;
+    border: 1px lightgray solid;
+}
+#ex:hover{
+  background-color: #002342;
+  color:white
+}
+#com{
+  border-top: 1px lightgray solid;
+  margin-top:30%;
+  padding-top: 5%;
+}

@@ -1,0 +1,97 @@
+#addUrl {
+    position: absolute;
+    left: 10%;
+    top: 23%;
+    background-color: white;
+    border-radius: 5%;
+    padding: 2%;
+    width: 24.5%;
+    height: 40%;
+}
+
+#addUrl h3 {
+    font-size: 150%;
+    color: black;
+}
+
+h1 {
+    font-family: Bungee, cursive;
+    color: white;
+}
+
+#wel {
+    position: absolute;
+    left: 42%;
+    top: 23%;
+}
+
+#wel h1 {
+    margin-top: 20%;
+    margin-bottom: 2%;
+}
+
+#acc {
+    background-color: #17a2b8;
+    color: white;
+}
+
+#acc:hover {
+    background-color: #0980a1;
+    color: white;
+}
+
+#he {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+#sel,
+#al {
+    flex-grow: 1;
+}
+
+#al {
+    width: 10%;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 1em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#warn
+{
+    position: absolute;
+    right:8%;
+    top:70%;
+    color:red;
+    z-index: 2;
+}
+#base {
+    width: 150%;
+    margin-right: 2%;
+}
+
+#sub {
+    width: 100%;
+    margin-top: 3%;
+    height: 15%;
+}
+
+#wrap button {
+    margin: 3%;
+}
+
+#wrap {
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+input:focus{
+    outline: black solid 1px;
+}
